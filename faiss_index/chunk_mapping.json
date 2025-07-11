@@ -1,0 +1,11 @@
+{
+  "basel3": [
+    "Basel III requires banks to hold more capital against risk-weighted assets.  Tier 1 capital should make up at least 6% of risk-weighted assets.  Additional capital conservation and countercyclical buffers apply based on systemic importance."
+  ],
+  "loan_policy": [
+    "To approve a loan, the bank must evaluate the borrower's creditworthiness, income, and repayment capacity.  High-risk loans require additional documentation, enhanced risk analysis, and approval from senior management.  All loan decisions must be documented and audited."
+  ],
+  "risk_weights": [
+    "Risk weights define the amount of capital a bank must hold based on asset type. For example, residential mortgages carry a 50% risk weight, while unsecured consumer credit can have a 100% weight. Sovereign exposures vary depending on country rating."
+  ]
+}

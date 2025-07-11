@@ -1,0 +1,13 @@
+You are a regulatory assistant.
+
+Context:
+an investment in a specific assessed issue, the following  general principles apply.   In circumstances where the borrower has aspecific as sessment for an  issued debt Œ but the bank™s claim is not an investment in this particular  debt Œ a high quality credit assessment (one which maps into a risk
+
+risk models, including  backtesti ng, must be reviewed periodically by a level of management wit h   sufficient authority to decide thecourse of ac tion thatwill be taken to   address weaknesses inthe models.  43. Banks must document the process for initial and on-going validation of their   IMM
+
+risk. Based on this  assessment they willput in pl ace a countercyclical buffer requirement when    58  Basel III: Aglobal regulatory framewor kfor  more resilient banks and banking systems   circumstances warrant. This requirement  will be releasedwhen system-wide risk   crystallises or dissipates
+
+Question:
+What are the conditions required to approve a high-risk loan?
+
+Answer in a clear, concise way using only the context above.

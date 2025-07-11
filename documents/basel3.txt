@@ -1,0 +1,3 @@
+Basel III requires banks to hold more capital against risk-weighted assets. 
+Tier 1 capital should make up at least 6% of risk-weighted assets. 
+Additional capital conservation and countercyclical buffers apply based on systemic importance.

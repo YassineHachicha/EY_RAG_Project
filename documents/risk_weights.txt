@@ -1,0 +1,3 @@
+Risk weights define the amount of capital a bank must hold based on asset type.
+For example, residential mortgages carry a 50% risk weight, while unsecured consumer credit can have a 100% weight.
+Sovereign exposures vary depending on country rating.

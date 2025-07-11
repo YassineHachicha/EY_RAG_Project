@@ -1,4 +1,4 @@
-# EY_RAG_Project
+
 # 🧠 EY_RAG_Project – AI & Data Internship
 
 Ce projet a été réalisé dans le cadre du **Summer Internship EY - AI & Data**, et porte sur le développement d’un **système de classification bancaire** enrichi par une architecture **RAG (Retrieval-Augmented Generation)** multi-document.

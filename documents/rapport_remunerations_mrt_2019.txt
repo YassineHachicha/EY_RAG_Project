@@ -1,0 +1,962 @@
+
+
+--- Page 1 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+RAPPORT SUR
+DOCUMENT TITLE
+LES RÉMUNÉRATIONS
+3 LINES MAX.
+Au titre de l’exercice 2019
+The bank
+for a changing
+world
+1
+
+--- Page 2 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+
+--- Page 3 ---
+
+SOMMAIRE
+INTRODUCTION 6
+1 · GOUVERNANCE 8
+Comité Conformité Risques Finance Groupe
+8
+Le Comité des Rémunérations et Conseil d’Administration
+9
+Assemblée Générale des Actionnaires
+10
+Audit et Contrôles
+10
+2 · PRINCIPES DE RÉMUNÉRATION DU GROUPE 11
+Principes de Rémunération Applicables à l’Ensemble des Collaborateurs du Groupe
+11
+3 · LA POLITIQUE DE RÉMUNÉRATION DES MRT GROUPE 13
+Le Périmètre
+13
+Détermination des Enveloppes de Bonus et Répartition par Ligne d’Activité
+14
+Allocations Individuelles
+15
+Paiement des Rémunérations Variables
+16
+Ratio entre Rémunérations Variable et Fixe
+18
+Champ d’Application et Règles Locales
+18
+Les Dirigeants Mandataires Sociaux de BNP Paribas SA
+18
+4 · INFORMATIONS QUANTITATIVES CONCERNANT
+LES RÉMUNÉRATIONS ATTRIBUÉES AU TITRE DE L’EXERCICE 2019 19
+Données d’Ensemble
+19
+Rémunération des Collaborateurs MRT Groupe en 2019
+20
+5 · INFORMATIONS QUANTITATIVES SUR LES RÉMUNÉRATIONS DES MRT VERSÉES EN 2019 22
+
+--- Page 5 ---
+
+ÉDITO
+Yves Martrenchar, Responsable des Ressources Humaines Groupe
+Groupe bancaire européen à dimension internationale, fort de près de 200 000
+collaborateurs présents dans plus de 70 pays, BNP Paribas porte une attention
+toute particulière à sa politique de rémunération.
+Cette politique se veut compétitive afin d’attirer et de retenir les collaborateurs les plus
+performants et talentueux, et permet de les rémunérer en tenant compte du marché
+local et des spécificités propres à certains métiers.
+Appliquant strictement la réglementation européenne d’encadrement des rémunérations,
+ainsi que les dispositions réglementaires propres à certains pays ou métiers, la politique
+de rémunération du Groupe vise à ne pas encourager la prise de risque excessive, et à
+éviter la mise en place d’incitations qui pourraient entrainer des situations de conflits
+d’intérêt entre les collaborateurs et les clients.
+Elle repose sur des principes d’équité et de transparence et se traduit notamment par un processus annuel unique de révision
+des rémunérations, concomitant à l’évaluation de la performance des collaborateurs, permettant une traçabilité et une
+cohérence interne des décisions ainsi qu’un contrôle et une maîtrise des évolutions par la Direction Générale.
+L’évolution des effectifs fait également l’objet d’un pilotage strict, afin de s’assurer de la bonne adéquation avec les
+besoins des métiers, et d’anticiper les éventuels écarts pouvant conduire à un recours accru au recrutement externe,
+ou au contraire au redéploiement des équipes, en cohérence avec la volonté du Groupe de développer l’employabilité
+interne des collaborateurs et leurs perspectives de mobilité. Ces évolutions de carrière sont accompagnées tant que de
+besoins par des programmes de formations ambitieux (renforcement des compétences, ou nouveaux apprentissages)
+et donnent lieu à un réexamen des niveaux de rémunération de chacun, en adéquation avec les postes occupés.
+Dans la mise en œuvre de la politique du Groupe, les différents métiers procèdent annuellement à des examens leur
+permettant de mesurer la compétitivité de leurs rémunérations par rapport aux pratiques de marché. Le Groupe s’est
+de nouveau assuré en 2019 que les niveaux de rémunération variables des différents métiers étaient en adéquation
+avec leurs résultats et la maîtrise de leurs coûts.
+BNP Paribas renforce continuellement l’attention portée à l’égalité de traitement pour tous, l’absence de discrimination,
+y compris entre les femmes et les hommes, et la prise en compte pour chacun de nos collaborateurs – outre la mesure
+de la performance individuelle et collective – du respect du Code de Conduite, de la réglementation, ainsi que de la
+maîtrise des risques et des règles internes, qui font l’objet pour certains collaborateurs d’une revue individuelle par
+les Fonctions indépendantes et de contrôle.
+Concernant l’égalité de traitement entre les femmes et les hommes, lorsque cela s’avère nécessaire, le Groupe met
+en place des mesures spécifiques dédiées au rattrapage salarial. En France, où la publication de l’index sur l’égalité
+salariale entre les femmes et les hommes a été introduit pour la première fois en 2019 pour les entreprises de plus
+de 250 salariés, les scores des entités du Groupe concentrant plus de 60 000 collaborateurs atteignent des niveaux
+parmi les meilleurs du secteur et bien au-delà des minimums requis par la Loi.
+Enfin, soucieux de sa responsabilité sociale et environnementale depuis plusieurs années, le Groupe a intégré depuis
+2013 dans sa politique de rémunération des indicateurs RSE représentatifs des 4 piliers de la politique RSE du Groupe
+pour certains collaborateurs clés pour le Groupe. Ces indicateurs RSE ont également été explicitement pris en compte
+en 2019 pour l’appréciation d’une partie des critères utilisés pour la détermination de la rémunération variable
+annuelle des dirigeants du Groupe.
+Le présent rapport présente la politique de rémunération du Groupe, la gouvernance mise en place pour en assurer
+sa cohérence et sa correcte application, ainsi que des éléments détaillés sur la rémunération de certains de ses
+collaborateurs. Il s’agit de ceux qui, compte tenu de leurs activités, sont susceptibles d’avoir une incidence significative
+sur le profil de risque du Groupe, sont identifiés comme preneurs de risque significatifs en application des critères
+d’identification prévus par la règlementation au niveau du Groupe, et font l’objet de dispositions d’encadrement
+spécifiques sur leurs rémunérations telles que requises par la réglementation Européenne.
+5
+
+--- Page 6 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+INTRODUCTION
+Le Groupe BNP Paribas applique l’ensemble des dispositions réglementaires en matière
+d’encadrement des rémunérations telles que prévues par :
+La Directive Européenne CRD41 du 26 juin 2013, significative sur le profil de risque de l’entreprise
+telle que transposée en droit français dans le Code (« Material Risk Takers » ou « MRT »), au niveau
+Monétaire et Financier et l’arrêté du 3 novembre 2014 consolidé à l’ensemble de ses succursales et filiales, y
+et le Règlement Européen CRR1 du 26 juin 2013 ; compris celles en dehors de l’Union Européenne ;
+Le règlement délégué (UE) de la Commission du 4 mars Les orientations de l’ABE2 sur les politiques de
+2014 sur les critères d’identification des collaborateurs rémunérations saines du 27 juin 2016 telles que
+dont les activités professionnelles ont une incidence reprises par la position de l’ACPR3.
+Ainsi, la politique de rémunération du Groupe est conforme à l’ensemble de ces dispositions et vise à ne pas encourager
+la prise de risque excessive, à éviter la mise en place d’incitations qui pourraient entraîner des conflits d’intérêts, et
+à ne pas inciter ou encourager les activités de gestion non autorisées.
+Ces dispositions réglementaires prudentielles s’appliquent sur base consolidée à l’ensemble du Groupe (y compris
+les filiales et succursales en dehors de l’Union Européenne), sauf exemptions prévues par la réglementation. En cas
+de divergences entre la réglementation qui s’applique au niveau du Groupe et celle qui s’applique au niveau local, ce
+sont les dispositions les plus contraignantes qui s’imposent.
+Ce rapport répond aux exigences réglementaires liées à l’article 450 du Règlement (UE) 575/2013 du 26 juin 2013
+concernant les exigences prudentielles applicables aux établissements de crédit et aux entreprises d’investissement
+(CRR).4
+S’agissant des populations spécifiquement visées par les dispositions légales et réglementaires,
+ont été identifiés :
+en raison de leur niveau de rémunération (du fait de
+1 | MRT Groupe
+leur expertise, sans qu’il soit avéré que leur activité
+professionnelle ait une incidence sur le profil de
+Les collaborateurs entrant en 2019 dans la catégorie
+risque du Groupe). Ces collaborateurs sont soumis à
+des MRT au niveau du Groupe conformément à la
+l’ensemble des dispositions prévues dans la politique
+réglementation en vigueur. Ainsi, ont été inclus
+de rémunération du Groupe telles que détaillées
+dans le périmètre des MRT Groupe, l’ensemble des
+ci-après.
+collaborateurs répondant à l’un des critères établis
+dans le Règlement Délégué, y compris ceux identifiés
+1 | Capital Requirements Directive 3 | Autorité de Contrôle Prudentiel et de Résolution
+2 | Autorité Bancaire Européenne 4 | Capital Requirements Regulation
+6
+
+--- Page 7 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+En complément de ces dispositions légales et réglementaires applicables au niveau du Groupe, d’autres mesures
+d’encadrement des rémunérations peuvent s’appliquer à certains collaborateurs qui, bien que n’étant pas considérés
+comme des MRT au niveau du Groupe, sont soumis à des règles particulières dans certaines entités du Groupe :
+2 | MRT Locaux 3 | Régulés Locaux
+Sont considérés comme « MRT locaux » les collaborateurs Sont considérés comme régulés locaux les collaborateurs
+identifiés dans les filiales bancaires significatives identifiés en raison d’autres dispositions réglementaires
+du Groupe, basées au sein de l’Union Européenne, prudentielles bancaires applicables en vertu des règles
+appliquant la CRD4 sur base individuelle en vertu des locales dans des pays en dehors de l’Union Européenne.
+transpositions nationales.
+Le nombre de collaborateurs identifiés au titre de chacune de ces dispositions (1, 2, 3 ci-dessus) est détaillé en page
+19. Par ailleurs, même si un certain nombre de principes relatifs à la politique de rémunération sont applicables à
+l’ensemble des collaborateurs du Groupe, les éléments chiffrés tels que détaillés à partir de la page 20 du présent
+rapport ne portent que sur les collaborateurs identifiés comme « MRT Groupe » soumis aux dispositions CRD4 au
+niveau du Groupe tel que requis par la règlementation.
+Par ailleurs, d’autres règles spécifiques sur les rémunérations peuvent s’appliquer à certains
+métiers du Groupe, par exemple en raison de dispositions :
+Liées à la protection de la clientèle (MIFID5 et Spécifiques au Groupe pour les collaborateurs de
+orientations de l’ESMA6) pour les collaborateurs du front office des métiers de Global Markets au sein du
+Groupe en relation directe ou indirecte avec les clients ; domaine d’activité Corporate & Institutional Banking
+(CIB), pour lesquels la rémunération variable attribuée
+D’ordre sectoriel (gestion d’actifs avec AIFMD et UCITS
+continue, comme les années précédentes, à être
+et assurance avec Solvency) ;
+strictement encadrée (prise en compte de l’ensemble
+Liées à l’application des dispositions relatives à la
+des coûts et des risques dans la détermination des
+Loi Bancaire Française (telles que transposées dans
+enveloppes de rémunération variable, application de
+le Code monétaire et financier) et à la Règle Volcker
+règles de différé et rémunération variable pour partie
+applicables aux opérateurs de marché ;
+indexée à l’action).
+5 | Markets in Financial Instruments Directive
+6 | European Securities and Markets Authority
+7
+
+--- Page 8 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+1 · GOUVERNANCE
+Les principes de rémunération du Groupe BNP Paribas et la politique de rémunération des MRT sont élaborés
+et proposés par les Ressources Humaines Groupe, en collaboration avec les métiers concernés, présentés pour
+validation au Comité Conformité, Risques, Finance du Groupe (Comité CRIF), présidé par la Direction Générale
+(DG) puis présentés en Comité des rémunérations avant approbation par le Conseil d’administration. Depuis 2014,
+l’Assemblée Générale des actionnaires est consultée annuellement sur certains éléments. Conformément à la
+réglementation applicable, le Comité des rémunérations de BNP Paribas SA exerce également les fonctions de
+Comité des rémunérations pour les filiales significatives.
+Élaboration de la politique de rémunération et de sa mise en œuvre par les Ressources Humaines Groupe
+COMITÉ CRIF PRÉSIDÉ PAR LA DG COMITÉ DES RÉMUNÉRATIONS CONSEIL D’ADMINISTRATION AG DES ACTIONNAIRES
+• Revoit et valide : • Examine : • Approuve les avis du • Consultée annuellement pour
+Comité des rémunérations, avis sur enveloppe de rému-
+– la conformité de la politique – les principes et politique
+notamment concernant les nération versée aux MRT.
+à la réglementation ; de rémunération ;
+principes et la politique de
+• Approbation pour relèvement
+– l’adéquation de la politique - les paramètres de détermi-
+rémunération du Groupe.
+du ratio entre rémunérations
+avec la politique de risques. nation des enveloppes ;
+variable et fixe.
+- les modalités de paiement.
+AUDIT ET CONTRÔLE
+• Évaluation annuelle interne et indépendante de la mise en œuvre de la politique de rémunération du Groupe.
+Comité Conformité Risques Finance Groupe « CRIF »
+Le Comité CRIF est un comité de la Direction Générale La politique de rémunération des collaborateurs
+présidé par M. Philippe Bordenave, Directeur régulés est présentée et discutée au sein du Comité CRIF
+Général délégué et comprend les responsables des qui revoit et valide :
+trois fonctions Conformité, Risques, Finance (ou des
+La conformité de la politique au regard de la
+représentants mandatés par leurs soins), ainsi que :
+réglementation ;
+Le Directeur Général adjoint Transversal et Président
+L’adéquation de cette politique et sa mise en œuvre
+de substitution du Comité CRIF par délégation de
+vis-à-vis de la politique de risques de l’entreprise ;
+M. Philippe Bordenave ;
+La cohérence des pratiques de rémunérations variables
+Le Responsable des Ressources Humaines Groupe ;
+avec le maintien d’un niveau suffisant de fonds propres.
+Le Responsable Rémunérations & Avantages sociaux,
+qui en assure le secrétariat. Ce Comité a délibéré à trois reprises pour le processus de
+révision des rémunérations au titre de l’exercice 2019.
+8
+
+--- Page 9 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Le Comité des Rémunérations & Conseil d’Administration
+Le Comité des rémunérations est un comité du Conseil Ainsi, le Comité des rémunérations analyse la politique
+d’administration présidé par M. Pierre André de de rémunération des MRT Groupe, les principes de
+Chalendar. Il est par ailleurs composé de Mme Jane Fields rémunération et les éléments de cadrage annuel revus
+Wicker-Miurin, qui est également membre du Comité des et validés par le Comité CRIF, notamment :
+comptes, et de M. Hugues Epaillard administrateur élu
+Les paramètres de détermination de l’enveloppe
+par les salariés au Conseil d’administration et également
+de rémunération variable (ou « bonus ») de Global
+membre du Comité de Contrôle interne, des Risques et
+Markets;
+de la Conformité. Cette composition est de nature à
+Les modalités de répartition, d’attribution individuelle
+favoriser les travaux du Conseil d’administration sur
+et de paiement.
+l’adéquation des principes de rémunération avec la
+politique de risques de BNP Paribas.
+Le Comité des rémunérations analyse également la
+liste nominative des bénéficiaires dont la rémunération
+Sa composition est conforme à la réglementation
+excède certains seuils définis chaque année par la
+applicable et aux recommandations du Code de
+Direction Générale, et est chargé de contrôler la
+gouvernement d’entreprise de l’AFEP MEDEF. Ses
+rémunération individuelle du responsable des Risques
+membres sont majoritairement des administrateurs
+et de la Conformité au niveau Groupe.
+indépendants, ils disposent d’une expérience des
+systèmes de rémunération et des pratiques de marché
+Les éléments ainsi débattus en Comité des
+dans ce domaine. Enfin, le Président du Conseil
+rémunérations sont ensuite présentés au Conseil
+d’administration qui n’en est pas membre, assiste aux
+d’administration qui en approuve les principes. Les
+séances du Comité et participe aux échanges, hors ceux
+informations sont également transmises aux Conseils
+qui le concernent personnellement.
+d’Administration des filiales significatives du Groupe.
+Le règlement intérieur du Conseil d’administration
+Le Comité des rémunérations s’est réuni à quatre
+définit la mission du Comité des rémunérations qui
+reprises pour délibérer du processus de révision des
+prépare les décisions du Conseil d’administration sur
+rémunérations au titre de l’exercice 2019.
+les principes de la politique de rémunération et la
+rémunération des dirigeants mandataires sociaux
+du Groupe et celle des collaborateurs dont les
+activités ont une incidence significative sur le profil de
+risque du Groupe (MRT Groupe), conformément à la
+réglementation en vigueur. Le Comité des rémunérations
+reçoit communication des décisions validées par le
+Comité CRIF.
+9
+
+--- Page 10 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Assemblée Générale des Actionnaires
+L’Assemblée Générale des actionnaires de BNP Paribas obtenue à la majorité des deux tiers, à condition qu’au
+est consultée annuellement sur l’enveloppe de moins la moitié des actionnaires soit représentée, à
+rémunération versée au cours de l’exercice écoulé défaut, elle statue à la majorité des trois quarts. Les
+aux collaborateurs identifiés comme MRT Groupe au collaborateurs qui entrent dans la catégorie des MRT
+titre de cet exercice incluant la rémunération fixe au titre de l’exercice précédent sont exclus du vote.
+et la rémunération variable, conformément au Code
+Monétaire et Financier (cf. p.22). Enfin, la rémunération des dirigeants mandataires
+sociaux ainsi que des autres administrateurs de BNP
+Par ailleurs, le Comité des rémunérations (sur Paribas SA fait l’objet de résolutions spécifiques
+proposition validée par le CRIF) décide de proposer soumises annuellement à l’approbation de l’Assemblée
+au Conseil d’administration de soumettre à la Générale des actionnaires, en application des
+décision de l’Assemblée Générale des actionnaires le dispositions du Code de commerce issues de la «Loi
+relèvement du ratio entre la rémunération variable et Pacte», et qui sont détaillées dans le rapport du
+la rémunération fixe de 100% à 200%. L’approbation Conseil d’administration à l’Assemblée Générale des
+de l’Assemblée Générale des actionnaires doit être actionnaires.
+Audit & Contrôles
+Les procédures opérationnelles mettant en œuvre la Une synthèse du rapport est systématiquement portée à
+politique de rémunération Groupe sont documentées, la connaissance du Comité des rémunérations du Conseil
+de manière à assurer l’auditabilité du dispositif et la d’administration.
+traçabilité des décisions. Par ailleurs, des contrôles
+ont été définis par les Ressources Humaines Groupe et La revue effectuée en 2019 par l’Inspection Générale
+mis en œuvre par les Ressources Humaines des pôles, du Groupe sur le processus 2018 et sur la mise en
+entités, fonctions du Groupe afin de s’assurer de la œuvre des principes de la CRD4 incluant l’identification
+correcte identification des collaborateurs MRT, et de des collaborateurs au titre des critères définis dans
+la correcte application de l’ensemble des dispositions le règlement délégué a conclu que les principes et la
+réglementaires applicables à ces populations (règles de réglementation étaient correctement appliqués. La
+différé, indexation, ratio variable sur fixe). À l’issue du synthèse de cette revue a été portée à la connaissance
+processus de révision des rémunérations, ces contrôles du Comité des rémunérations du Conseil d’administration
+font l’objet d’une certification de la part de chacun des et transmise au régulateur.
+pôles, métiers, et fonctions du Groupe.
+Par ailleurs, la Banque Centrale Européenne procède
+A posteriori, un contrôle de second niveau est déployé par chaque année à une revue des principes et de la mise
+RISK ORC et l’Inspection Générale du Groupe effectue en œuvre de la politique de rémunération du Groupe
+une revue indépendante annuelle du processus de BNP Paribas.
+rémunération, pour s’assurer de sa conformité effective
+aux principes et aux procédures prévus par la politique
+de rémunération du Groupe.
+10
+
+--- Page 11 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+2 · PRINCIPES DE RÉMUNÉRATION DU GROUPE
+Principes de Rémunération applicables à l’ensemble des collaborateurs du Groupe
+COMPOSANTES DE LA RÉMUNÉRATION DES COLLABORATEURS DU GROUPE
+Plusieurs éléments composent la rémunération des collaborateurs du Groupe :
+La rémunération fixe En complément, la rémunération variable peut également
+consister en un plan de fidélisation ou de rémunération
+La rémunération fixe rémunère la compétence,
+variable à moyen ou long terme, ou tout autre instrument
+l’expérience, le niveau de qualification, l’implication
+approprié visant à motiver et fidéliser les collaborateurs
+dans les tâches confiées. Elle est fixée en fonction du
+clés et collaborateurs à potentiel du Groupe, en les
+marché (local et métier) et d’un principe de cohérence
+intéressant à la croissance de la valeur créée.
+interne au Groupe BNP Paribas. Elle est composée d’un
+salaire fixe de base, qui rémunère les compétences et
+Les rémunérations variables sont déterminées de
+les responsabilités correspondant à la fonction occupée,
+manière à éviter la mise en place d’incitations qui
+et le cas échéant de compléments de rémunération
+pourraient entraîner des situations de conflit d’intérêts
+fixe liés notamment aux spécificités du poste occupé,
+entre les collaborateurs et les clients, ou le non-respect
+conformément à la réglementation en vigueur.
+des règles de Code de Conduite, Règles et Réglementation
+et Maîtrise des Risques.
+La rémunération variable collective
+Des systèmes de partage des profits dont les modalités
+La structure de rémunération doit permettre d’offrir un
+de calcul sont définies généralement par accord
+niveau de rémunération fixe suffisant pour rémunérer
+d’entreprise peuvent exister en fonction des législations
+l’activité professionnelle, en relation avec le niveau de
+locales, permettant aux collaborateurs de percevoir une
+séniorité, d’expertise, et d’expérience professionnelle
+partie des résultats du Groupe et/ou de l’entité dans
+dans l’activité concernée, pour permettre le cas échéant
+laquelle ils travaillent.
+de ne pas accorder de rémunération variable.
+La rémunération variable individuelle
+Les incitations commerciales
+La rémunération variable rémunère les réalisations
+Pour les collaborateurs occupant notamment une
+quantitatives et qualitatives mesurées à partir
+fonction commerciale au sein des activités de détail,
+des performances constatées et des évaluations
+la rémunération variable individuelle peut prendre la
+individuelles, au regard des objectifs fixés. Elle est
+forme d’incitations commerciales. Celles-ci ne doivent
+déterminée en fonction des résultats dégagés par
+pas encourager à proposer un produit ou un service
+l’activité et des réalisations par rapport aux objectifs
+au détriment d’un autre mieux adapté aux besoins du
+quantitatifs et qualitatifs, de la contribution à la maîtrise
+client, ni favoriser les intérêts des collaborateurs et/ou
+des risques et au respect des règles de conformité et
+les intérêts de la Banque au détriment de ceux du client.
+des pratiques de marché (local et/ou métier). Elle ne
+constitue pas un droit et est fixée chaque année dans
+le respect de la politique de rémunération de l’année
+considérée et des principes de gouvernance en vigueur.
+11
+
+--- Page 12 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Les avantages sociaux INTERDICTION DE COUVERTURE
+Les avantages sociaux dépendent des législations de
+La couverture ou l’assurance par les bénéficiaires du
+chaque pays ; ils viennent en complément des autres
+risque liée à la fluctuation de l’action, ou à la profitabilité
+formes de rémunération et visent notamment à protéger
+des métiers visant à supprimer l’aléa lié à leur
+le collaborateur contre les aléas de la vie (contrats de
+rémunération différée est interdite (y compris pendant
+prévoyance, mutuelle…), encourager son effort d’épargne
+la période d’indisponibilité).
+et favoriser la préparation de sa retraite, sous forme de
+plans de retraite collectifs.
+PROCESSUS DE RÉVISION ANNUELLE
+Les autres éléments de rémunération
+La gestion des évolutions de rémunération se fait dans
+Les créances rachetées lors de l’embauche de
+le cadre d’un processus annuel unique au sein du Groupe
+collaborateurs expérimentés seront payées selon un
+et à l’aide d’un outil centralisé permettant à la Direction
+échéancier et des conditions les plus proches possible
+Générale d’obtenir à tout moment l’état des propositions,
+des échéances et conditions initiales des instruments
+en particulier pour l’ensemble des MRT, et de piloter
+rachetés ; tout en suivant les modalités de paiement
+ce processus jusqu’aux décisions individuelles et à leur
+ainsi que les conditions comportementales prévues
+notification, en fonction de la conjoncture, des résultats
+dans le cadre des plans de rémunération différée du
+de l’entreprise et des conditions de marché.
+Groupe BNP Paribas, en vigueur au moment du rachat
+de la créance à ces collaborateurs.
+Garantir par avance le paiement des rémunérations
+variables est interdit. Toutefois, dans un contexte
+d’embauche, notamment pour attirer une compétence
+clé, l’attribution d’une rémunération variable peut être
+exceptionnellement garantie la première année, cette
+attribution sera en tout état de cause soumise aux mêmes
+conditions que celles qui s’appliquent aux rémunérations
+variables (c’est-à-dire avec une part différée, indexation,
+conditions de performance le cas échéant).
+Enfin, en cas de rupture anticipée d’un contrat de
+travail, tout montant versé dans le cadre transactionnel
+(au-delà des minimas légaux et accords collectifs en
+vigueur) doit refléter la performance effective passée
+du collaborateur.
+12
+
+--- Page 13 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+3 · LA POLITIQUE DE RÉMUNÉRATION
+DES MRT GROUPE
+Le périmètre
+Les MRT Groupe sont identifiés annuellement conformément aux critères définis dans le règlement délégué de la
+Commission Européenne et aux critères complémentaires du Groupe selon la méthodologie suivante :
+AU NIVEAU DU GROUPE EN VERTU DES CRITÈRES DE RISQUES
+Les dirigeants mandataires sociaux exécutifs ; Les collaborateurs bénéficiant de délégations en
+matière de crédit excédant certains seuils (0,5% du
+Les mandataires sociaux non exécutifs ;
+Common Equity Tier 1 « CET1 » du Groupe) et ceux
+Les membres du Comité Exécutif du Groupe ;
+ayant autorité pour approuver ou refuser les décisions
+Les responsables de niveau Groupe des fonctions en matière de crédit ;
+Finances, Ressources Humaines, Politique de
+Les collaborateurs du Groupe ayant autorité pour
+rémunération, Affaires Juridiques, Affaires Fiscales,
+initier des transactions dont la limite de Value at Risk
+Informatique, Analyses économiques ;
+« VaR » excède certains seuils (5% de la limite de VaR
+Au sein des fonctions Conformité et Inspection du Groupe), et ceux ayant autorité pour approuver ou
+Générale : le responsable de niveau Groupe et les refuser ce type de transactions ;
+managers qui lui sont directement rattachés ;
+Les membres ayant autorité au sein de comités pour
+Au sein de la fonction Risques : le responsable de valider ou refuser des transactions, opérations ou
+niveau Groupe, les managers lui reportant direc- nouveaux produits ;
+tement, ainsi que les autres membres du Comité
+Les managers dont les délégations cumulées de leurs
+Exécutif de la fonction ;
+collaborateurs directs excèdent le seuil en matière de
+Les cadres dirigeants responsables de métiers, risque de crédit.
+zones géographiques, domaines d’activité, entités
+opérationnelles ayant une incidence significative sur
+le profil de risque du Groupe. EN VERTU DES NIVEAUX DE RÉMUNÉRATION
+Sont également ajoutés à la liste, les collaborateurs
+AU NIVEAU DES PRINCIPAUX MÉTIERS du Groupe dont la rémunération totale annuelle de
+DU GROUPE l’exercice précédent excède certains seuils absolus
+(500 000 euros) ou relatifs (0,3% les mieux rémunérés).
+Dans les entités significatives pour lesquelles le Groupe
+alloue plus de 2% de ses fonds propres normatifs :
+Le responsable, et les managers qui lui sont directe-
+ment rattachés ;
+Le responsable des risques, et les managers qui lui
+sont directement rattachés.
+13
+
+--- Page 14 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Détermination des enveloppes de bonus et répartition par ligne d’activité
+LES ACTIVITÉS DE MARCHÉS DE GLOBAL MARKETS Ces éléments sont complétés par des éléments factuels
+permettant de mesurer le comportement collectif des
+Dans le cadre du strict encadrement des rémunérations
+équipes :
+de l’ensemble des collaborateurs de Global Markets,
+En matière de contrôle permanent, de conformité et de
+l’enveloppe de rémunération variable du métier
+respect des procédures ;
+est déterminée en prenant en compte l’ensemble
+des éléments constitutifs des résultats et du risque, En termes d’esprit d’équipe au sein du métier, et de
+notamment : ventes croisées au sein du Groupe.
+Les revenus directs ;
+Les critères retenus s’appuient sur des indicateurs
+Les coûts directs et indirects alloués au métier ;
+quantitatifs et des éléments factuels, dont la nature est
+Le coût du refinancement facturé en interne (y compris définie chaque année lors du lancement du processus
+coût réel de la liquidité) ; de rémunération.
+La charge du risque générée par le métier ;
+Le coût du capital alloué à l’activité. LES AUTRES MÉTIERS DU GROUPE
+Toutefois, certains éléments de revenus ou de coûts ne Les enveloppes de rémunération variable des autres
+sont pas imputés au métier lorsqu’ils ne reflètent pas sa métiers du Groupe sont déterminées en fonction des
+performance sur l’année. revenus générés nets de toutes les charges et besoin
+en capital, après prise en compte du risque (notamment
+Les enveloppes ainsi calculées sont réparties au sein pour les activités CIB), ou par application d’un taux de
+des métiers de Global Markets entre les différentes variation par rapport à l’exercice précédent, fixé en
+lignes d’activité, en fonction de critères adaptés aux fonction notamment de l’évolution des performances
+caractéristiques propres à chaque métier ou équipe, du Groupe ou du métier dans son ensemble, après prise
+définis et documentés de manière précise, et reflétant : en compte du risque (notamment pour les activités de
+Banque de Détail), ainsi que des pratiques du marché.
+La mesure de performance quantitative (y compris la
+création et le développement d’avantages compétitifs
+de long terme pour le Groupe),
+LES ENVELOPPES DES FONCTIONS GROUPE
+La mesure du risque sous-jacent, ET FONCTIONS DE CONTRÔLE
+La valeur de marché des équipes concernées ainsi que
+Les enveloppes de rémunération variable des fonctions
+la situation concurrentielle.
+Groupe, et des fonctions de contrôle intégrées7 sont
+déterminées indépendamment de la performance des
+métiers dont elles facilitent, valident ou vérifient les
+opérations.
+Les enveloppes de rémunération variable des fonctions
+au sein des domaines d’activités et métiers sont définies
+par rapport à celles des fonctions Groupe, mais en
+tenant compte le cas échéant des situations de marché
+du travail particulières, dans une mesure limitée.
+7 | Risques, Conformité, Inspection Générale, Juridique
+14
+
+--- Page 15 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Allocations Individuelles
+L’attribution individuelle est effectuée par décision du Le résultat de ces revues est ensuite pris en compte
+management sur la base : par les managers des collaborateurs concernés dans le
+cadre de l’évaluation de performance annuelle et pour la
+Des performances de l’équipe à laquelle appartient
+détermination de leur rémunération variable annuelle.
+l’intéressé et de ses performances individuelles (la
+performance est mesurée en fonction du niveau de Dans le cas où des défaillances à l’une au moins de ces
+résultat et du niveau de risque associé à ce résultat) ; dispositions sont constatées, les rémunérations variables
+attribuées au titre de l’exercice sont systématiquement
+Des évaluations (évaluation individuelle annuelle
+réduites voire supprimées pour les collaborateurs
+obligatoire réalisée par le responsable hiérarchique)
+concernés.
+qui apprécient à la fois :
+– les réalisations qualitatives par rapport
+Les attributions individuelles pour les collaborateurs
+aux objectifs fixés,
+des fonctions Groupe et des fonctions de contrôle sont
+– le comportement professionnel au regard effectuées selon ces principes et indépendamment
+des valeurs, des règles de conformité, du Code des performances des métiers que les collaborateurs
+de Conduite et des procédures du Groupe, contrôlent. Par ailleurs, une importance particulière est
+– la contribution à la maîtrise des risques, accordée à la contribution des collaborateurs concernés
+y compris du risque opérationnel et à la maîtrise des risques lors du processus d’évaluation
+annuelle.
+– le cas échéant le comportement managérial
+de l’intéressé.
+Indépendamment des éventuelles procédures dis-
+ciplinaires, le non-respect des règles et procédures
+applicables ou les manquements aux règles de confor-
+mité et au Code de Conduite du Groupe entraînent la
+réduction ou la suppression du bonus.
+Les collaborateurs identifiés comme MRT Groupe et
+MRT locaux sont formellement revus annuellement de
+manière indépendante par les fonctions de contrôle
+(Conformité et Risques) au regard du respect du
+Code de Conduite, des Règles et Réglementations, et
+de l’évaluation et de la maîtrise des risques tels que
+définis par le Groupe.
+15
+
+--- Page 16 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Paiement des rémunérations variables
+Pour les MRT8, les rémunérations variables comportent L’acquisition de chaque fraction annuelle est également
+une partie non différée et une partie différée. conditionnée à la constatation, à chaque terme, de la
+réalisation des conditions définies lors de l’attribution
+La part différée est d’autant plus importante que le initiale basées sur le niveau de profitabilité du métier,
+montant de la rémunération variable est élevé, selon et/ou de l’activité, et/ou du Groupe dans son ensemble.
+une grille fixée chaque année par le CRIF, variant de Ces conditions visent à favoriser la prise en compte
+40% à 60% au moins, pour les niveaux de rémunération de l’impact des activités de l’exercice considéré sur
+variable les plus élevés. les résultats des exercices ultérieurs, et l’alignement
+des comportements individuels sur la stratégie et les
+Conformément aux obligations réglementaires, le intérêts de l’entreprise. En cas de non réalisation des
+paiement des bonus (pour la partie différée ou la partie conditions au cours d’un exercice, la fraction annuelle
+non différée) se fait de la manière suivante : de la rémunération variable différée n’est pas versée
+(« Malus »).
+Pour moitié en numéraire ;
+Pour moitié en numéraire indexé sur l’action
+Certains MRT bénéficient également d’une attribution
+BNP Paribas à l’issue d’une période de rétention de
+au titre d’un plan de fidélisation Groupe9 entièrement
+6 mois.
+différé à plus de 3 ou 5 ans prenant la forme d’un
+instrument assimilé à de la dette dont le paiement est
+L’indexation à l’action a un double objectif : l’alignement
+subordonné à l’absence de mesure de résolution du
+des bénéficiaires sur les intérêts de l’actionnaire, et la
+régulateur et au maintien d’un CET110 Groupe supérieur
+solidarité avec les résultats globaux de l’entreprise.
+à 7%. Ce plan inclut également des conditions relatives
+à la performance financière du Groupe ainsi qu’à des
+La partie différée est acquise sur 3 ans minimum suivant
+critères RSE, définis au moment de l’attribution.
+l’année de l’attribution et son paiement n’est pas plus
+rapide que prorata temporis. Ainsi, le paiement des
+Le schéma suivant illustre un exemple d’application
+bonus soumis à différé sur 3 ans s’étale sur 8 échéances
+des règles de paiement de la rémunération variable
+de paiement, avec une dernière échéance en septembre
+dans le cas d’un collaborateur MRT soumis à un taux de
+2023, soit 3 ans et 9 mois après l’exercice de référence
+différé de 60% sur 3 ans et bénéficiant d’une attribution
+pour la détermination des rémunérations variables.
+à hauteur de 10% de sa rémunération variable totale au
+titre du plan de fidélisation groupe :
+La partie différée est acquise progressivement sur les
+3 ans suivant l’année d’attribution, sous réserve de la
+réalisation de conditions de performance financière
+du métier, de l’activité et du Groupe, et de conditions
+comportementales, définies lors de l’attribution.
+La rémunération variable est différée à 5 ans et payée
+par cinquième pendant 5 ans suivant l’année de
+l’attribution en particulier pour les membres du Comité
+Exécutif du Groupe.
+8 | Hors dirigeants mandataires sociaux de BNP Paribas SA (cf p18)
+9 | Rémunération variable à moyen terme
+10 | Common Equity Tier 1 Groupe à 12,1% au 31/12/2019 16
+
+--- Page 17 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+2020 2021 2022 2023
+Mars Sept. Mars Sept. Mars Sept. Mars Juin Sept.
+Paiement Numéraire indexé sur le cours Période de différé Montants soumis à l’atteinte de conditions
+de l’action BNP Paribas de performance pour valider le paiement
+Période de rétention
+Paiement Numéraire Montants soumis à claw-back
+Paiement Instrument assimilé à la dette
+Par application d’un principe de proportionnalité et pour rémunération variable différée prévoient les conditions
+limiter la gestion administrative associée à ces plans, dans lesquelles les éléments de rémunérations variables
+chaque échéance de différé dont le paiement est inférieur attribuées pourront être réduits ou annulés.
+à 5 000 euros est réglée par anticipation dès l’attribution
+Enfin, la rémunération variable des collaborateurs des
+(pour les rémunérations variables attribuées inférieures
+activités de marchés qui n’entrent pas dans la catégorie
+à 75 000 euros).
+des MRT continue à être strictement encadrée et fait
+La faute d’un collaborateur ayant entraîné son l’objet de règles de paiement intégrant des différés, de
+licenciement (ou, pour un collaborateur ayant quitté le l’indexation et des clauses suspensives de paiement.
+Groupe, la faute qui aurait été susceptible d’entraîner
+Ainsi, les critères de risques, de conduite, et de
+son licenciement si elle avait été révélée alors qu’il
+conformité et leurs mesures sont pris en compte
+était employé), lorsqu’elle consiste en un manquement
+ex-ante pendant le processus de revue annuelle
+en matière de gestion du risque, de conformité, ou
+des rémunérations, pour le calcul des enveloppes
+de respect du Code de Conduite ou encore en une
+de rémunération variable (collectif) et dans le cadre
+dissimulation ou une action ayant eu pour effet de fausser
+les conditions de fixation de bonus antérieurement du processus d’évaluation annuelle (individuel). En
+alloués, implique la perte de tout ou partie des droits complément, tout manquement au regard des principes
+aux éléments différés de l’ensemble des rémunérations du Code de conduite, de la conformité et de la gestion
+variables11 précédemment attribuées (« Malus ») et des risques est également pris en compte ex-post pour
+éventuellement la restitution (« claw-back ») des le paiement des rémunérations des collaborateurs qui
+éléments de rémunération variable déjà perçus (sous bénéficient d’une rémunération variable soumise à des
+réserve du respect du droit du travail local). règles de différé (malus et clawback en cas de faute).
+Par ailleurs, en cas de mise en œuvre d’un plan de Tout ceci contribue à renforcer la culture de conduite,
+résolution, tel que défini à l’article L. 613-50 et suivants conformité et risques de l’ensemble des collaborateurs
+du Code monétaire et financier, les règlements de plan de du Groupe.
+11 | Y compris au titre du plan de fidélisation Groupe
+17
+ELATOT
+ELBAIRAV
+NOITARÉNUMÉR
+PLAN DE FIDÉLISATION
+GROUPE (10%)
+PARTIE
+DIFFÉRÉE
+(60%)
+LATOT
+LEUNNA
+SUNOB
+Paiement
+Paiement
+NUMÉRAIRE
+Paiement
+DIFFÉRÉ (25%)
+Paiement
+Paiement
+NUMÉRAIRE
+INDEXÉ Paiement
+DIFFÉRÉ (25%)
+Paiement
+Paiement Montants soumis à l’atteinte de conditions
+NUMÉRAIRE
+de performance pour valider le paiement
+UPFRONT
+PARTIE (20%)
+NON
+DIFFÉRÉE
+NUMÉRAIRE
+(40%)
+INDEXÉ
+Paiement
+UPFRONT
+(20%) Montants soumis à claw-back
+
+--- Page 18 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Ratio entre rémunérations variable et fixe
+La rémunération variable totale attribuée à un le calcul du ratio, la part de la rémunération variable
+collaborateur entrant dans la catégorie des MRT, différée à 5 ans et versée sous forme d’instruments,
+considérée à sa valeur nominale à la date d’attribution, dans la limite de 25% de la rémunération variable totale
+ne peut excéder sa rémunération fixe totale au titre de est actualisée avec un taux défini conformément aux
+la même année multipliée par un ratio. orientations de l’EBA12.
+Un ratio maximum de 200% est proposé par le Au titre de 2019, ce taux d’actualisation a bénéficié à
+Comité CRIF au Comité des rémunérations du Conseil 4 collaborateurs en France13.
+d’administration et soumis à l’approbation de l’Assemblée
+Générale des actionnaires. 43% des collaborateurs identifiés comme MRT Groupe au
+titre de 2019 ont bénéficié d’un ratio entre 100% et 200%
+L’assemblée Générale du 24 mai 2018 a approuvé à plus entre la composante variable et la composante fixe de
+de 80% ce ratio de 200% pour une durée de 3 ans. Pour leur rémunération totale.
+Champ d’application et règles locales
+Les dispositions décrites ci-dessus sont celles qui inférieur à 10 milliards d’euros et dont les activités n’ont
+s’appliquent en principe aux MRT du Groupe. Des pas d’impact sur la solvabilité et la liquidité du Groupe
+dispositions particulières parfois plus contraignantes (en particulier l’immobilier) ne sont pas concernées par
+notamment concernant les modalités de paiement de la les dispositions de la CRD4.
+rémunération variable ou le ratio peuvent dans certains
+pays être appliquées aux MRT du Groupe en raison de la Ces dispositions de la CRD4 en matière d’encadrement
+transposition des règles de la CRD4 dans certains pays sur les rémunérations s’appliquent également sur base
+européens. individuelle au niveau des filiales bancaires du Groupe
+au sein de l’Union Européenne, selon la législation en
+Par ailleurs, conformément à l’arrêté du 3 novembre vigueur, aux collaborateurs identifiés comme « MRT
+2014, les activités du Groupe soumises à certaines locaux » conformément aux principes Groupe tels
+dispositions réglementaires (AIFMD et UCITS pour la que détaillés ci-avant et à la réglementation locale
+gestion d’actifs et Solvency pour l’assurance) ou les applicable.
+entités non assujetties CRD4 dont le total bilan est
+Les dirigeants mandataires sociaux de BNP Paribas SA
+La rémunération variable des dirigeants mandataires Les principes et la politique de rémunération spécifiques
+sociaux de BNP Paribas SA est déterminée en cohérence applicables aux dirigeants mandataires sociaux de
+avec les principes énoncés ci-dessus applicables à BNP Paribas SA sont détaillés dans le chapitre 2 du
+l’ensemble des MRT Groupe et selon des modalités Document d’Enregistrement Universel 2019.
+proposées par le Comité des rémunérations, et arrêtées
+par le Conseil d’administration de BNP Paribas.
+12 | En application des orientations de l’EBA (EBA/GL/2014/01)
+13 | Hors Dirigeants Mandataires sociaux
+18
+
+--- Page 19 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+4 · INFORMATIONS QUANTITATIVES CONCERNANT
+LES RÉMUNÉRATIONS ATTRIBUÉES AU TITRE
+DE L’EXERCICE 2019
+Données d’ensemble
+INFORMATIONS SUR LE GROUPE
+Le Groupe BNP Paribas compte près de 200 000 collaborateurs14 au 31 décembre 2019 pour un total de frais de
+personnel de 17,5 milliards d’euros dont 13 milliards d’euros de salaires, traitements et autres rémunérations
+variables (y compris Participation et Intéressement) tels que détaillés dans les États Financiers consolidés du
+Document d’Enregistrement Universel 2019.
+LES COLLABORATEURS DU GROUPE DONT LA RÉMUNÉRATION AU TITRE DE 2019 EST SOUMISE
+À DES RÈGLES D’ENCADREMENT
+Ce schéma illustre le nombre de collaborateurs dont la rémunération au titre de 2019 est soumise à des règles
+d’encadrement en fonction des dispositions réglementaires applicables partout dans le monde et de règles internes
+telles que détaillées en introduction.
+Total des collaborateurs identifiés : 4 056
+Total des MRT : 2 317
+1 | MRT Groupe 3 | Régulés Locaux
+2 | MRT Locaux
+1 476 1 739*
+841
+*Incluant 1230 collaborateurs de Bank of the West soumis à des dispositions réglementaires de la Federal Reserve
+14 | Effectif en Équivalent Temps Plein (ETP) des entités sous contrôle exclusif et consolidées par intégration globale (Effectif financier)
+19
+
+--- Page 20 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Rémunération des collaborateurs MRT Groupe en 2019
+Les informations quantitatives détaillées ci-dessous identifiés au sein des filiales du Groupe appliquant la
+concernent les rémunérations brutes hors charges CRD4 sur base individuelle en fonction des dispositions
+patronales attribuées au titre de l’exercice 2019 aux nationales applicables ou les autres collaborateurs du
+collaborateurs identifiés comme MRT Groupe, mais Groupe pour lesquels la rémunération est également
+ne traitent pas des rémunérations attribuées aux encadrée.
+collaborateurs du Groupe identifiés comme MRT locaux
+DONNÉES QUANTITATIVES ATTRIBUÉES AU PÉRIMÈTRE DES MRT GROUPE
+Les rémunérations attribuées au titre de l’exercice 2019 aux MRT Groupe se décomposent de la manière suivante :
+Autres Dirigeants
+Retail Fonctions
+En milliers d’euros Président mandataires mandataires Fonctions
+CIB Banking indépendantes TOTAL
+hors charges du CA sociaux sociaux Groupe
+& Services de contrôle
+non–exécutifs – exécutifs 2
+Nombre de personnes
+1 12 2 843 288 271 59 1 476
+concernées
+Montant de la
+1 010 1 180 6 279 686 077 131 165 79 836 47 798 953 344
+rémunération totale
+Dont fixe1 1 010 1 180 2 622 320 291 76 215 51 448 20 696 473 462
+Dont variable 0 0 3 657 365 785 54 950 28 388 27 102 479 882
+Dont numéraire 0 0 1 828 179 492 21 843 12 940 9 650 225 753
+Dont instrument
+0 0 1 828 178 892 21 596 11 465 9 586 223 367
+lié à l’action
+Dont autres
+0 0 0 7 401 11 511 3 983 7 866 30 761
+instruments
+Dont rémunération
+variable acquise 0 0 529 86 552 15 555 9 736 6 416 118 787
+versée
+Dont rémunération
+variable différée 0 0 3 128 279 233 39 395 18 652 20 686 361 095
+conditionnelle3
+(1)La rémunération fixe inclut la rémunération versée au cours de l’année 2019 au titre du mandat d’administrateur de BNP Paribas SA.
+(2) Sous réserve de l’approbation de l’Assemblée Générale des actionnaires du 19 mai 2020 dans les conditions prévues par l’article L 225-100
+du Code du commerce.
+Le montant de la rémunération variable versée Au total, la rémunération variable attribuée au titre de
+comptant en mars 2020 au titre de l’exercice 2019 aux 2019 à l’ensemble de ces collaborateurs dans le monde
+collaborateurs MRT 2019 s’est élevé au total à 119 s’élève à 480 millions d’euros, dont seulement un quart
+millions d’euros. Le solde de la rémunération variable, a été versé en mars 2020.
+soit un montant théorique de 361 millions d’euros, se
+répartit sur 7 à 11 échéances conditionnelles entre
+septembre 2020 et septembre 2023 ou 2025 selon les
+collaborateurs, dont 115 millions d’euros
+à l’échéance septembre 2020.
+20
+
+--- Page 21 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Les autres éléments de rémunération relatifs aux MRT Groupe sont les suivants :
+Dirigeants
+En milliers d’euros hors charges mandataires Autres MRT TOTAL
+sociaux – exécutifs
+Montants des rémunérations variables différées
+17 159 489 705 506 865
+non-acquises au titre des exercices antérieurs
+Montant des rémunérations différées versées en 2019
+4 027 251 390 255 418
+(en valeur d’attribution)
+Montant des rémunérations différées versées en 2019
+1 461 237 494 238 955
+(en valeur de paiement)
+Montant des réductions effectuées en 2019 sur les
+rémunérations différées du fait des résultats - 4 495 4 495
+de l’exercice
+Montant des indemnités de rupture versées en 2019 - 19 169 19 169
+Nombre de collaborateurs ayant bénéficié d’une indem-
+- 50 50
+nité de rupture en 2019
+Montant des sommes payées à l’embauche en 2019 - 308 308
+Nombre de collaborateurs ayant bénéficié
+- 5 5
+d’une somme payée à l’embauche en 2019
+NOMBRE DE COLLABORATEURS MRT DONT LA RÉMUNÉRATION TOTALE AU TITRE DE 2019 EXCÈDE 1M€
+Rémunération totale NOMBRE DE MRT
+Entre 1 et 1,5M€ 135
+Entre 1,5 et 2M€ 43
+Entre 2 et 2,5M€ 22
+Entre 2,5 et 3M€ 8
+Entre 3 et 3,5M€ 4
+Entre 3,5 et 4M€ 5
+Entre 4 et 4,5M€ 0
+Entre 4,5 et 5M€ 0
+Entre 5 et 6M€ 1
+TOTAL 218
+Parmi les 218 collaborateurs recensés dans ce tableau, 66 exercent leur activité au Royaume-Uni, 57 aux Etats-Unis,
+38 en Asie, 44 en France et les autres collaborateurs sont répartis dans 8 autres pays.
+21
+
+--- Page 22 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+5 · INFORMATIONS QUANTITATIVES SUR LES
+RÉMUNÉRATIONS DES MRT VERSÉES EN 2019
+Conformément à l’article L511-73 du Code Monétaire Le montant versé de ces rémunérations variables
+et Financier, l’Assemblée Générale des actionnaires de attribuées au cours des exercices précédents peut
+BNP Paribas du 19 mai 2020 va se prononcer dans sa 18e être impacté par la non-atteinte des conditions de
+résolution par vote consultatif sur l’enveloppe globale performance ainsi que par l’évolution du cours de
+de rémunérations versées en 2019 aux collaborateurs l’action BNP Paribas entre la date d’attribution et la date
+identifiés comme MRT en 2019. de paiement.
+Ces rémunérations sont par nature différentes de Le montant de la rémunération fixe correspond au montant
+celles présentées au paragraphe 3 ci-dessus, lesquelles effectivement versé dans l’année avec prise en compte
+correspondent aux rémunérations attribuées en 2020 au des éventuelles revalorisations salariales intervenues
+titre de l’exercice 2019. Les rémunérations effectivement en cours d’année. La rémunération fixe attribuée
+versées en 2019 sont relatives aux paiements partiels de telle que détaillée ci-dessus dans le paragraphe 3,
+rémunérations variables attribuées entre 2016 (au titre correspond à la rémunération fixe au 31/12/2019
+de l’exercice 2015) et 2019 (au titre de l’exercice 2018) considérée sur base annuelle.
+pour leurs parties versables en 2019 conformément aux
+dispositions applicables. Ainsi, l’enveloppe globale de rémunération versée en
+2019, objet de la consultation de l’Assemblée Générale,
+est de 822 millions d’euros.
+En millions d’euros hors charges
+EXERCICE 2019
+NOMBRE DE PERSONNES CONCERNÉES
+Montant de la rémunération Montant de la rémunération
+fixe versée variable versée
+1 476 468 354
+La rémunération variable versée est constituée de :
+EXERCICE 2019
+En milliers d’euros hors charges
+En valeur à l’attribution En valeur de paiement**
+Bonus au titre de 2018 payé dans l’année 178 181
+Bonus différé au titre de 2017 46 39
+Bonus différé au titre de 2016 43 38
+Bonus différé au titre de 2015 63 63
+Plan de fidélisation Groupe 2015 26 19
+Autres éléments de rémunération variables* 16 14
+TOTAL 372 354
+*primes à l’embauche, rachat de créances, plans collectif type participation et intéressement…
+** l’écart entre la valeur d’attribution et la valeur de paiement résulte de l’indexation partielle des rémunérations variables au cours de l’action
+BNP Paribas, et aux conditions de performance.
+22
+
+--- Page 23 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+
+--- Page 24 ---
+
+RAPPORT SUR LES RÉMUNÉRATIONS
+Avril 2020
+La banque
+d'un monde
+qui change

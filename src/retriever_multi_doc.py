@@ -50,8 +50,4 @@ def retrieve_answer(question, top_k=3):
     for idx, chunk in enumerate(results):
         print(f"[{idx+1}] {chunk}\n")
 
-# 🔘 Exécution manuelle
-if __name__ == "__main__":
-    print("Pose une question (ex: What are the conditions to approve a loan?)")
-    question = input("🧠 Question : ")
-    retrieve_answer(question)
+

@@ -21,14 +21,19 @@ with open(chunk_map_path, "r", encoding="utf-8") as f:
 # 🔍 Router
 def select_doc(question):
     q = question.lower()
-    if "loan" in q or "approval" in q:
-        return "loan_policy"
-    elif "capital" in q or "tier 1" in q:
-        return "basel3"
-    elif "weight" in q or "asset" in q:
-        return "risk_weights"
+   
+
+    if "bâle" in q or "basel" in q or "tier 1" in q or "capital" in q:
+        return "bale3_definitions"
+    elif "solvabilité" in q or "directive 2009" in q or "assurance" in q:
+        return "reglement_solvabilite2_ue"
+    elif "mrt" in q or "crd4" in q or "rémunération groupe" in q:
+        return "rapport_remunerations_mrt_2019"
+    elif "mandataire" in q or "président" in q or "variable long terme" in q:
+        return "politique_remuneration_mandataires"
     else:
-        return "loan_policy"
+        return "bale3_definitions"
+
 
 # 🔁 Retrieval + Prompt + LLM
 def generate_answer(question, top_k=3):
@@ -46,22 +51,24 @@ def generate_answer(question, top_k=3):
     context = "\n\n".join(retrieved)
 
     # 🔧 Prompt
-    prompt = f"""You are a regulatory assistant.
+    prompt = f"""Tu es un assistant réglementaire expert en conformité bancaire.
 
-Context:
+Contexte extrait de la réglementation :
 {context}
 
-Question:
+Question :
 {question}
 
-Answer clearly using only the provided context.
+Réponds de façon claire et concise, en citant uniquement le contexte fourni. Si le contexte est insuffisant, dis-le.
 """
+
 
     # 🧠 LLM via OpenRouter
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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"  # 🔐 Remplace par ta clé OpenRouter
+        api_key="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"  # 🔐 Remplace par ta clé OpenRouter
     )
+    
 
     response = client.chat.completions.create(
         model="deepseek/deepseek-r1-0528",  # ou mistralai/mistral-7b-instruct

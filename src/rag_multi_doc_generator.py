@@ -1,4 +1,3 @@
-
 import os
 import json
 import faiss
@@ -19,9 +18,9 @@ with open(chunk_map_path, "r", encoding="utf-8") as f:
     chunk_mapping = json.load(f)
 
 # 🔍 Router
+
 def select_doc(question):
     q = question.lower()
-   
 
     if "bâle" in q or "basel" in q or "tier 1" in q or "capital" in q:
         return "bale3_definitions"
@@ -35,60 +34,87 @@ def select_doc(question):
         return "bale3_definitions"
 
 
-# 🔁 Retrieval + Prompt + LLM
-def generate_answer(question, top_k=3):
-    doc_key = select_doc(question)
-    print(f"📚 Using document: {doc_key}")
+def retrieve_from_graph(question, doc_key, chunk_mapping, model, top_k=3):
+    import faiss
+    import networkx as nx
+    from pathlib import Path
 
-    index_path = index_dir / f"{doc_key}.idx"
-    index = faiss.read_index(str(index_path))
+    index_path = Path(f"faiss_index/{doc_key}.idx")
+    import pickle
+
+    with open(f"indices/{doc_key}_graph.gpickle", "rb") as f:
+         G = pickle.load(f)
+
 
     query_vec = model.encode([question]).astype("float32")
+    index = faiss.read_index(str(index_path))
     D, I = index.search(query_vec, top_k)
 
+    initial_nodes = I[0]
+    expanded_nodes = set(initial_nodes)
+
+    for node in initial_nodes:
+        neighbors = list(G.neighbors(node))
+        expanded_nodes.update(neighbors[:2])
+
     chunks = chunk_mapping[doc_key]
-    retrieved = [chunks[i] for i in I[0]]
-    context = "\n\n".join(retrieved)
+    return "\n\n".join([chunks[i] for i in expanded_nodes if i < len(chunks)])
 
-    # 🔧 Prompt
-    prompt = f"""Tu es un assistant réglementaire expert en conformité bancaire.
 
-Contexte extrait de la réglementation :
+def generate_answer(question: str, llm, top_k=3) -> str:
+    doc_key = select_doc(question)
+    print(f"🔍 Mode : Graph RAG activé sur le document : {doc_key}")
+    context = retrieve_from_graph(question, doc_key, chunk_mapping, model, top_k=top_k)
+
+    prompt = f"""
+Tu es un assistant réglementaire expert en conformité bancaire.
+
+Contexte extrait des documents :
 {context}
 
 Question :
 {question}
 
-Réponds de façon claire et concise, en citant uniquement le contexte fourni. Si le contexte est insuffisant, dis-le.
+Réponds de façon claire et concise en citant uniquement le contexte. Si le contexte est insuffisant, dis-le.
 """
+    return llm.invoke(prompt)
 
+def build_graph_from_chunks(chunks: list[str], doc_key: str):
+    import networkx as nx
+    from sentence_transformers import SentenceTransformer, util
 
-    # 🧠 LLM via OpenRouter
-    client = OpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key="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"  # 🔐 Remplace par ta clé OpenRouter
-    )
-    
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    embeddings = model.encode(chunks, convert_to_tensor=True)
 
-    response = client.chat.completions.create(
-        model="deepseek/deepseek-r1-0528",  # ou mistralai/mistral-7b-instruct
-        messages=[
-            {"role": "system", "content": "You are a regulatory assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=512,
-        temperature=0.3,
-        extra_headers={
-            "HTTP-Referer": "https://votresite.com",
-            "X-Title": "MultiDoc-RAG"
-        }
-    )
+    G = nx.Graph()
+    for i, chunk in enumerate(chunks):
+        G.add_node(i, text=chunk)
 
-    reply = response.choices[0].message.content
-    print("\n🧠 Réponse générée :\n")
-    print(reply)
+    cos_scores = util.pytorch_cos_sim(embeddings, embeddings)
+    threshold = 0.6
 
-# 🔘 Interaction manuelle
+    for i in range(len(chunks)):
+        for j in range(i + 1, len(chunks)):
+            if cos_scores[i][j] > threshold:
+                G.add_edge(i, j, weight=float(cos_scores[i][j]))
+
+    import os
+    graph_path = f"indices/{doc_key}_graph.gpickle"
+    os.makedirs(os.path.dirname(graph_path), exist_ok=True)
+    import pickle
+    with open(graph_path, 'wb') as f:
+        pickle.dump(G, f)
+    print(f"✅ Graphe sauvé : {graph_path}")
+
 if __name__ == "__main__":
     question = input("🧠 Question réglementaire : ")
-    generate_answer(question)
+    from langchain_openai import ChatOpenAI
+
+    llm = ChatOpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key="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",
+        model="deepseek/deepseek-chat",
+        temperature=0.3,
+        max_tokens=512
+    )
+    print(generate_answer(question, llm=llm))

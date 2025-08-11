@@ -41,6 +41,11 @@ for file_path in documents_dir.glob("*.txt"):
 
     # 💾 Sauvegarde
     faiss.write_index(index, str(index_dir / f"{doc_name}.idx"))
+# ✅ Création des graphes sémantiques pour chaque document
+from rag_multi_doc_generator import build_graph_from_chunks
+
+for doc_key, chunks in chunk_mapping.items():
+    build_graph_from_chunks(chunks, doc_key)
 
 # 💾 Mapping chunks ↔ documents
 with open(index_dir / "chunk_mapping.json", "w", encoding="utf-8") as f:

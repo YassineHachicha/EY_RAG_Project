@@ -61,23 +61,39 @@ def retrieve_from_graph(question, doc_key, chunk_mapping, model, top_k=3):
     return "\n\n".join([chunks[i] for i in expanded_nodes if i < len(chunks)])
 
 
-def generate_answer(question: str, llm, top_k=3) -> str:
+def generate_answer(
+    question: str,
+    llm,
+    top_k: int = 3,
+    *,
+    context_char_limit: int = 1000,
+    max_tokens: int = 32,
+    temperature: float = 0.2,
+) -> str:
     doc_key = select_doc(question)
     print(f"🔍 Mode : Graph RAG activé sur le document : {doc_key}")
     context = retrieve_from_graph(question, doc_key, chunk_mapping, model, top_k=top_k)
 
-    prompt = f"""
-Tu es un assistant réglementaire expert en conformité bancaire.
+    # Limiter la taille du contexte pour rester sous des quotas stricts (ajustable)
+    if len(context) > context_char_limit:
+        context = context[:context_char_limit] + "..."
+        print(f"⚠️ Contexte tronqué à {context_char_limit} caractères pour respecter les limites de tokens")
 
-Contexte extrait des documents :
-{context}
+    prompt = f"""Tu es un assistant réglementaire expert en conformité bancaire.
 
-Question :
-{question}
+Contexte: {context}
 
-Réponds de façon claire et concise en citant uniquement le contexte. Si le contexte est insuffisant, dis-le.
-"""
-    return llm.invoke(prompt)
+Question: {question}
+
+Réponds de façon claire et concise en citant uniquement le contexte. Si le contexte est insuffisant, dis-le."""
+    
+    # Forcer une petite réponse pour respecter le quota (au cas où la config globale est plus élevée)
+    try:
+        return llm.bind(max_tokens=max_tokens, temperature=temperature).invoke(prompt)
+    except Exception:
+        # Tentative encore plus petite en cas d'erreur de crédits
+        fallback_tokens = max(16, min(32, max_tokens // 2))
+        return llm.bind(max_tokens=fallback_tokens, temperature=temperature).invoke(prompt)
 
 def build_graph_from_chunks(chunks: list[str], doc_key: str):
     import networkx as nx
@@ -112,7 +128,7 @@ if __name__ == "__main__":
 
     llm = ChatOpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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",
+        api_key="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",
         model="deepseek/deepseek-chat",
         temperature=0.3,
         max_tokens=512

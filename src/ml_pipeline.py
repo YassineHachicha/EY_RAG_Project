@@ -52,7 +52,7 @@ def remove_highly_correlated_features(X, threshold=0.95):
     print(f"📉 Variables supprimées pour corrélation > {threshold} : {to_drop}")
     return X.drop(columns=to_drop, errors='ignore'), to_drop
 
-def preprocess_data(target, feature_selection="none", k_best=15, corr_threshold=0.95):
+def preprocess_data(target, feature_selection="none", k_best=15, corr_threshold=0.95, custom_dataset_path=None):
     import pandas as pd
     import numpy as np
     from sklearn.model_selection import train_test_split
@@ -60,7 +60,49 @@ def preprocess_data(target, feature_selection="none", k_best=15, corr_threshold=
     from sklearn.feature_selection import SelectKBest, f_classif, RFE
     from sklearn.ensemble import RandomForestClassifier
 
-    if target == "LoanApproved":
+    # Si un dataset personnalisé est fourni, l'utiliser
+    if custom_dataset_path and os.path.exists(custom_dataset_path):
+        print(f"📁 Utilisation du dataset uploadé : {custom_dataset_path}")
+        df = pd.read_csv(custom_dataset_path)
+        
+        # Vérifier si la colonne cible existe
+        if target not in df.columns:
+            # Essayer de trouver une colonne similaire
+            possible_targets = [col for col in df.columns if target.lower() in col.lower()]
+            if possible_targets:
+                target = possible_targets[0]
+                print(f"🎯 Colonne cible trouvée : {target}")
+            else:
+                raise ValueError(f"Colonne cible '{target}' non trouvée dans le dataset. Colonnes disponibles : {list(df.columns)}")
+        
+        y = df[target]
+        X = df.drop(columns=[target])
+        
+        # Encodage automatique des variables catégorielles
+        categorical_cols = X.select_dtypes(include=['object', 'string']).columns
+        if len(categorical_cols) > 0:
+            print(f"🔤 Encodage de {len(categorical_cols)} variables catégorielles : {list(categorical_cols)}")
+            X = pd.get_dummies(X, columns=categorical_cols, drop_first=True)
+        
+        # Gestion des valeurs manquantes
+        if X.isnull().sum().sum() > 0:
+            print("🧹 Nettoyage des valeurs manquantes...")
+            X = X.fillna(X.median())
+        
+        # Winsorizing pour les variables numériques
+        numeric_cols = X.select_dtypes(include=["int64", "float64"]).columns
+        if len(numeric_cols) > 0:
+            print(f"🔢 Colonnes numériques détectées : {list(numeric_cols)}")
+            Q1 = X[numeric_cols].quantile(0.25)
+            Q3 = X[numeric_cols].quantile(0.75)
+            IQR = Q3 - Q1
+            lower = Q1 - 1.5 * IQR
+            upper = Q3 + 1.5 * IQR
+            X[numeric_cols] = X[numeric_cols].clip(lower=lower, upper=upper, axis=1)
+        else:
+            print("⚠️ Aucune colonne numérique trouvée dans le dataset uploadé.")
+
+    elif target == "LoanApproved":
         df = pd.read_csv("data/P1M2_Yonathan_Anggraiwan.csv", sep=';')
         df = df.drop(columns=['ApplicationDate'])
         df['EducationLevel'] = df['EducationLevel'].astype(str).str.strip()
@@ -92,23 +134,38 @@ def preprocess_data(target, feature_selection="none", k_best=15, corr_threshold=
 
     # 🔎 Feature selection
     if feature_selection == "kbest":
-        selector = SelectKBest(score_func=f_classif, k=min(k_best, X.shape[1]))
-        X_new = selector.fit_transform(X.select_dtypes(include=["int64", "float64"]), y)
-        selected_cols = X.select_dtypes(include=["int64", "float64"]).columns[selector.get_support()]
-        print(f"✅ SelectKBest : {len(selected_cols)} variables retenues : {list(selected_cols)}")
-        X = pd.concat([X[selected_cols], X.select_dtypes(exclude=["int64", "float64"])], axis=1)
+        numeric_cols = X.select_dtypes(include=["int64", "float64"]).columns
+        if len(numeric_cols) > 0:
+            selector = SelectKBest(score_func=f_classif, k=min(k_best, len(numeric_cols)))
+            X_new = selector.fit_transform(X[numeric_cols], y)
+            selected_cols = numeric_cols[selector.get_support()]
+            print(f"✅ SelectKBest : {len(selected_cols)} variables retenues : {list(selected_cols)}")
+            X = pd.concat([X[selected_cols], X.select_dtypes(exclude=["int64", "float64"])], axis=1)
+        else:
+            print("⚠️ Aucune colonne numérique trouvée pour la sélection de features. Feature selection ignorée.")
 
     elif feature_selection == "rfe":
-        estimator = RandomForestClassifier(n_estimators=100, random_state=42)
-        selector = RFE(estimator, n_features_to_select=min(k_best, X.shape[1]))
-        X_new = selector.fit_transform(X.select_dtypes(include=["int64", "float64"]), y)
-        selected_cols = X.select_dtypes(include=["int64", "float64"]).columns[selector.get_support()]
-        print(f"✅ RFE : {len(selected_cols)} variables retenues : {list(selected_cols)}")
-        X = pd.concat([X[selected_cols], X.select_dtypes(exclude=["int64", "float64"])], axis=1)
+        numeric_cols = X.select_dtypes(include=["int64", "float64"]).columns
+        if len(numeric_cols) > 0:
+            estimator = RandomForestClassifier(n_estimators=100, random_state=42)
+            selector = RFE(estimator, n_features_to_select=min(k_best, len(numeric_cols)))
+            X_new = selector.fit_transform(X[numeric_cols], y)
+            selected_cols = numeric_cols[selector.get_support()]
+            print(f"✅ RFE : {len(selected_cols)} variables retenues : {list(selected_cols)}")
+            X = pd.concat([X[selected_cols], X.select_dtypes(exclude=["int64", "float64"])], axis=1)
+        else:
+            print("⚠️ Aucune colonne numérique trouvée pour la sélection de features. Feature selection ignorée.")
 
     else:
         print("ℹ️ Feature selection désactivée.")
 
+    # Vérification finale
+    if X.shape[1] == 0:
+        raise ValueError("❌ Aucune feature restante après prétraitement. Vérifiez votre dataset.")
+    
+    print(f"✅ Dataset final : {X.shape[0]} lignes, {X.shape[1]} colonnes")
+    print(f"📋 Colonnes finales : {list(X.columns)}")
+    
     # Split final
     X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.2, random_state=42)
 
@@ -305,13 +362,15 @@ def train_and_evaluate(
     optimize: bool = False,
     feature_selection="none",
     k_best=15,
-    corr_threshold=0.95
+    corr_threshold=0.95,
+    custom_dataset_path=None
 ):
     (X_train, X_test, y_train, y_test), feature_cols = preprocess_data(
         target,
         feature_selection=feature_selection,
         k_best=k_best,
-        corr_threshold=corr_threshold
+        corr_threshold=corr_threshold,
+        custom_dataset_path=custom_dataset_path
     )
 
     scaler = StandardScaler()
@@ -472,7 +531,7 @@ def predict_from_input(user_dict, target="LoanApproved", model_type="auto"):
 
     model = joblib.load(model_path)
     scaler = joblib.load(scaler_path)
-    features = joblib.load(features_path)
+    features_loaded = joblib.load(features_path)
 
     # 🧠 Defaults en fonction de la cible
     base_defaults = {
@@ -500,15 +559,51 @@ def predict_from_input(user_dict, target="LoanApproved", model_type="auto"):
     }
 
     # 👇 Adapte ici si certaines colonnes n’existent que dans un dataset
+    # Liste de features attendue par le modèle (priorité au modèle sauvé)
+    expected_features = None
+    if hasattr(model, "feature_names_in_"):
+        try:
+            expected_features = list(model.feature_names_in_)
+        except Exception:
+            expected_features = None
+    if expected_features is None:
+        expected_features = list(features_loaded)
+
+    # Si le modèle courant n'a pas la même dimensionalité que les features
+    model_n = getattr(model, "n_features_in_", None)
+    if model_n is not None and model_n != len(expected_features):
+        # Essayer de trouver un modèle compatible dans le dossier
+        try:
+            for f in os.listdir(model_dir):
+                if f.endswith("_model.pkl"):
+                    cand_path = os.path.join(model_dir, f)
+                    cand = joblib.load(cand_path)
+                    cand_n = getattr(cand, "n_features_in_", None)
+                    if cand_n == len(expected_features):
+                        model = cand
+                        model_n = cand_n
+                        break
+        except Exception:
+            pass
+
     input_data = {}
-    for col in features:
+    for col in expected_features:
         if col in user_dict:
             input_data[col] = user_dict[col]
         else:
             input_data[col] = base_defaults.get(col, 0)  # fallback à zéro
 
-    X_input = pd.DataFrame([input_data])
-    X_scaled = scaler.transform(X_input)
+    # Respecter l'ordre des colonnes
+    X_input = pd.DataFrame([[input_data.get(c) for c in expected_features]], columns=expected_features)
+
+    # Appliquer le scaler uniquement si la dimension correspond
+    try:
+        if hasattr(scaler, "n_features_in_") and scaler.n_features_in_ == X_input.shape[1]:
+            X_scaled = scaler.transform(X_input)
+        else:
+            X_scaled = X_input
+    except Exception:
+        X_scaled = X_input
 
     prediction = model.predict(X_scaled)
 

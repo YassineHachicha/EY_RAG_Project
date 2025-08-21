@@ -10,14 +10,26 @@ import os
 
 
 
-# ✅ LLM configuration (OpenRouter)
-llm = ChatOpenAI(
+# ✅ LLM configuration (OpenRouter) - DeepSeek pour RAG
+llm_rag = ChatOpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="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",
     model="deepseek/deepseek-chat",
     temperature=0.3,
     max_tokens=512 
 )
+
+# ✅ LLM configuration (OpenRouter) - Llama 3 70B pour rapports
+llm_report = ChatOpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key="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",
+    model="meta-llama/llama-3.1-70b-instruct",
+    temperature=0.3,
+    max_tokens=1024  # Plus de tokens pour les rapports
+)
+
+# Pour compatibilité, garder llm = llm_rag par défaut
+llm = llm_rag
 
 
 # 🛠️ Tool 1: Entraînement ML
@@ -78,7 +90,7 @@ predict_tool = Tool(
 from rag_multi_doc_generator import generate_answer
 rag_tool = Tool(
     name="RAGRetrieverTool",
-    func=lambda question: generate_answer(question, llm=llm, top_k=3),
+    func=lambda question: generate_answer(question, llm=llm_rag, top_k=3),
     description="Récupère un passage réglementaire depuis un graphe sémantique (Graph RAG uniquement)."
 )
 
@@ -117,12 +129,13 @@ You are an executive reporting assistant. Write the report in {lang_name}.
 {regulatory_summary}
 
 Requirements:
-- Single coherent narrative (no bullet points).
-- Professional and factual.
-- If regulatory context is partial, state limitations briefly.
-- Include 1 sentence on model limitations/assumptions.
+- Produce a concise executive summary of 250–350 words.
+- Structure with multiple sections: Introduction, Model Performance, Feature Importance, Regulatory Context, Limitations & Future Work.
+- Include at least 3–4 detailed paragraphs per section.
+- Professional and factual, no bullet points.
+
 """
-    resp = llm.invoke(prompt)
+    resp = llm_report.invoke(prompt)
     return getattr(resp, "content", str(resp))
 
 
@@ -218,4 +231,3 @@ if __name__ == "__main__":
                 print(result)
             except Exception as e:
                 print(f"❌ Erreur : {e}")
-

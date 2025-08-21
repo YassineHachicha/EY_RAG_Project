@@ -8,3 +8,10 @@ shap
 mlflow
 streamlit
 langchain
+langchain-openai
+plotly
+sentence-transformers
+faiss-cpu
+networkx
+joblib
+matplotlib
